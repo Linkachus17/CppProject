@@ -1,33 +1,38 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main(){
-    int number;
-    cout << "1.Nasi goreng\n2.Nasi Kebuli\n3.Es cream\n4.Es campur\n5.Kerupuk" << endl;
-    cin >> number;
-    if (number == 1){
-        cout << "Kenyang";
-        return 0;
+    int arr1 [3] = {1,0,1};
+    int arr2 [3] = {0,1,0};
+    int arr3 [3] = {1,0,1};
+    for (int i=0; i<3; i++){
+        cout << arr1[i] << endl;
     }
-    else if (number == 2){
-        cout << "Kenyang";
-        return 0;
+    for (int f=0; f<3; f++){
+        cout << arr2[f] << endl;
     }
-    else if (number == 3){
-        cout << "Lumayan kenyang";
-        return 0;
+    for (int c=0; c<3; c++){
+        cout << arr3[c] << endl;
     }
-    else if (number == 4){
-        cout << "Lumayan kenyang";
         return 0;
-    }
-    else if (number == 5){
-        cout << "Lagi";
-        return 0;
-    }
-    else{
-        return 0;
-    }
-
 }
+// Problem
+// Not sure if I can just display the array in 1 line
+// Expected output should be :
+// 101
+// 010
+// 101
+
+// Instead :
+//1
+//0
+//1
+//0
+//1
+//0
+//1
+//0
+//1
+
+
+// Hey! at least I done my assignment (probably)
