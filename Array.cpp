@@ -6,14 +6,17 @@ int main(){
     int arr2 [3] = {0,1,0};
     int arr3 [3] = {1,0,1};
     for (int i=0; i<3; i++){
-        cout << arr1[i] << endl;
+        cout << arr1[i];
     }
+    cout << endl;
     for (int f=0; f<3; f++){
-        cout << arr2[f] << endl;
+        cout << arr2[f];
     }
+    cout << endl;
     for (int c=0; c<3; c++){
-        cout << arr3[c] << endl;
+        cout << arr3[c];
     }
+    cout << endl;
         return 0;
 }
 // Problem
