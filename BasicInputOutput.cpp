@@ -3,9 +3,12 @@
 using namespace std;
 
 int main(){
+    int mynum;
     string mystr;
-    cout << "This is my output" << endl;
-    getline (cin, mystr);
-    cout << mystr;
-    return 0;
+
+    cout << "This is my output :)" << endl;
+    cin >> mystr;
+    cout << "I said : ";
+    cin >> mynum;
+    cout << "Number " << mynum << endl;
 }
